@@ -1,0 +1,110 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 세로 방향으로 중앙 정렬 */
+    align-items: center; /* 가로 방향으로 중앙 정렬 */
+    height: 100%; /* 화면 전체 높이 사용 */
+    padding: 5%;
+    display: flex;
+    max-width: 22%;
+    margin: 0 auto;
+}
+
+.logo-title-container {
+    display: flex;
+    align-items: center; /* 로고와 텍스트 수직 정렬 */
+    margin-bottom: 20px; /* 아래 간격 추가 */
+}
+
+.signup-logo {
+    width: 40px; /* 로고 크기 */
+    height: auto; /* 비율 유지 */
+    margin-right: 10px; /* 로고와 텍스트 사이 간격 */
+    border-radius: 15px;
+}
+
+.signup-heading {
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.signup-title {
+    font-size: 20px; /* 호탐마켓 텍스트 크기 */
+    font-weight: bold;
+}
+
+.divider {
+    border: none; /* 기본 테두리 제거 */
+    border-top: 1px solid #ccc; /* 윗쪽에만 구분선 추가 */
+    width: 100%; /* 전체 너비로 설정 */
+    margin: 20px 0; /* 위, 아래 간격 설정 */
+}
+
+
+.nickname-container {
+    display: flex; 
+    margin-bottom: 0px;
+}
+
+.input-field {
+    width: 100%; /* 입력 필드 너비를 100%로 설정 */
+    max-width: 500px; /* 최대 너비를 제한 */
+    padding: 10px; /* 입력 필드 내부 여백 */
+    font-size: 16px; /* 글자 크기 */
+    border: 1px solid #ccc; /* 테두리 설정 */
+    border-radius: 10px; /* 테두리 라운드 처리 */
+    margin-bottom: 0px; /* 아래쪽 간격 줄이기 */
+    box-sizing: border-box; /* 패딩과 테두리를 포함한 너비 계산 */
+    margin-right: 10px;
+}
+
+.input-fields-container {
+    padding: 0; /* 입력 필드들만 padding을 0으로 설정 */
+    width: 90%;
+}
+
+.input-field:focus {
+    outline: none; /* 포커스 시 기본 테두리 제거 */
+    border-color: #5287c0; /* 포커스 시 테두리 색 변경 */
+    box-shadow: 0 0 5px rgba(82, 135, 192, 0.5); /* 포커스 시 그림자 효과 */
+}
+
+.submit-button-1 {
+    padding: 10px 14px; /* 버튼의 내부 여백을 수정 */
+    font-size: 14px; /* 버튼 글씨 크기를 입력 필드와 맞추기 */
+    background-color: #5287c0; /* 배경색 */
+    color: white; /* 글자 색 */
+    border: none; /* 기본 테두리 제거 */
+    border-radius: 7px; /* 버튼 모서리 둥글게 */
+    height: 100%; /* 버튼 높이를 입력 필드에 맞춤 */
+    cursor: pointer; /* 마우스 포인터를 변경 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 약간의 그림자 추가 */
+    white-space: nowrap;
+}
+
+.submit-button-2 {
+    padding: 10px 14px; /* 버튼의 내부 여백을 수정 */
+    font-size: 14px; /* 버튼 글씨 크기를 입력 필드와 맞추기 */
+    background-color: #5287c0; /* 배경색 */
+    color: white; /* 글자 색 */
+    border: none; /* 기본 테두리 제거 */
+    border-radius: 7px; /* 버튼 모서리 둥글게 */
+    height: 100%; /* 버튼 높이를 입력 필드에 맞춤 */
+    cursor: pointer; /* 마우스 포인터를 변경 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 약간의 그림자 추가 */
+    width: 100%;
+    white-space: nowrap;
+}
+
+.submit-button-1:hover,
+.submit-button-2:hover {
+    background-color: #004494;
+}
+
+.submit-button-1:focus,
+.submit-button-2:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(82, 135, 192, 0.5);
+}
